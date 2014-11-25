@@ -1,4 +1,4 @@
-from autobahn.websocket import listenWS
+from autobahn.twisted.websocket import listenWS
 from autobahn.wamp import exportRpc, WampServerFactory, WampServerProtocol
 from twisted.internet import reactor
 from twisted.web import xmlrpc, server
